@@ -34,7 +34,7 @@
         </nav>
 
         <div class="icons">
-            <div id="login-btn" class="fas fa-user"></div>
+            <!-- <div id="login-btn" class="fas fa-user"></div> -->
             <div id="menu-btn" class="fas fa-bars"></div>
         </div>
 
@@ -378,7 +378,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide slide">
-                <p>"Dream Zone has completely transformed my learning experience! The instructors are highly knowledgeable and the course materials are very practical. I highly recommend it to anyone looking to build a solid foundation in tech!"</p>
+                <p>"Dream Zone has completely transformed my learning experience! The instructors are highly knowledgeable and the course materials are very practical."</p>
                 <div class="wrapper">
                     <div class="separator"></div>
                     <div class="separator"></div>
@@ -390,7 +390,7 @@
                 <div class="user">
                     <img src="images/review-1.png" alt="Student at Dream Zone">
                     <div class="user-info">
-                        <h3>Emily Rogers</h3> <!-- Updated student name -->
+                        <h3>David Rogers</h3> <!-- Updated student name -->
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -403,7 +403,7 @@
             </div>
 
             <div class="swiper-slide slide">
-                <p>"The hands-on approach at Dream Zone made all the difference! I’ve gained so much confidence in my abilities. I feel ready to take on any challenge in web development!"</p>
+                <p>"The hands-on approach at Dream Zone made all the difference! I’ve gained so much confidence in my abilities."</p>
                 <div class="wrapper">
                     <div class="separator"></div>
                     <div class="separator"></div>
@@ -415,7 +415,7 @@
                 <div class="user">
                     <img src="images/review-2.png" alt="Student at Dream Zone">
                     <div class="user-info">
-                        <h3>Jason Lee</h3> <!-- Updated student name -->
+                        <h3>Jasie Lee</h3> <!-- Updated student name -->
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -440,7 +440,7 @@
                 <div class="user">
                     <img src="images/review-3.png" alt="Student at Dream Zone">
                     <div class="user-info">
-                        <h3>Amy Patel</h3> <!-- Updated student name -->
+                        <h3>Nickolas Jackson</h3> <!-- Updated student name -->
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -465,7 +465,7 @@
                 <div class="user">
                     <img src="images/review-4.png" alt="Student at Dream Zone">
                     <div class="user-info">
-                        <h3>Ravi Kumar</h3> <!-- Updated student name -->
+                        <h3>Ravia Kumar</h3> <!-- Updated student name -->
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -478,7 +478,7 @@
             </div>
 
             <div class="swiper-slide slide">
-                <p>"The environment at Dream Zone is motivating and encouraging. I am learning so much in the programming course. Thank you for giving me the confidence to succeed!"</p>
+                <p>"The environment at Dream Zone is motivating and encouraging. I am learning so much in the programming course."</p>
                 <div class="wrapper">
                     <div class="separator"></div>
                     <div class="separator"></div>
@@ -568,7 +568,7 @@
                     <a href="#"><i class="fas fa-user"></i>by admin</a>
                 </div>
                 <h3>5 Tips for Effective Online Learning</h3> <!-- Updated blog title -->
-                <p>Online learning can be challenging, but with the right approach, you can maximize your success. Here are five tips to help you succeed!</p> <!-- Updated summary -->
+                <p>Online learning can be challenging, but with the right approach, you can maximize your success. Here are five tips to help you succeed! stay with Dream zone for be successfull in future</p> <!-- Updated summary -->
                 <a href="#" class="btn">
                     <span class="text text-1">read more</span>
                     <span class="text text-2" aria-hidden="true">read more</span>
@@ -612,12 +612,12 @@
             <h3>We'd love to hear from you!</h3>
             <p>Please fill out the form below, and we'll get back to you as soon as possible.</p>
 
-            <input type="text" placeholder="Your Name" class="box" required>
-            <input type="email" placeholder="Your Email" class="box" required>
-            <input type="number" placeholder="Your Phone Number" class="box" required>
-            <textarea placeholder="Your Message" class="box" cols="30" rows="10" required></textarea>
+            <input id="name" type="text" placeholder="Your Name" class="box" required>
+            <input id="email" type="email" placeholder="Your Email" class="box" required>
+            <input id="number" type="number" placeholder="Your Phone Number" class="box" required>
+            <textarea id="message" placeholder="Your Message" class="box" cols="30" rows="10" required></textarea>
 
-            <button type="submit" class="btn">
+            <button type="submit" onclick="sendMessage(event)" class="btn">
                 <span class="text text-1">Send Message</span>
                 <span class="text text-2" aria-hidden="true">Send Message</span>
             </button>
@@ -656,8 +656,8 @@
     </div>
     <div class="credit">Created by <span>Abdulaziz</span> | All rights reserved!</div>
 </section>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- footer section ends -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
  <script src="js/script.js"></script>
 </body>
 </html>
